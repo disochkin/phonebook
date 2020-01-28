@@ -10,16 +10,17 @@ def adv_print(*args, **kwargs):
     if in_file:
         with open(output_file, 'w') as f_obj:
             if start:
-                print(start, sep='', file=f_obj)
+                print(start, file=f_obj)
             for item in args:
                 print('\n'.join(textwrap.wrap(item, max_line)), file=f_obj)
 
     else:
         if start:
-            print(start, sep='')
-            for item in args:
+            print(start)
+        for item in args:
                 print('\n'.join(textwrap.wrap(item, max_line)))
 
 
-adv_print("zzzzzzzzzzzzzzzzzzzzz","zzzzxxxxxxxxxxxxxxxxxxxxxxxxx")
+adv_print("zzzzzzzzzzzzzzzzzzzzz","zzzzxxxxxxxxxxxxxxxxxxxxxxxxx", max_line=10)
+
 
