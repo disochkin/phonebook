@@ -1,8 +1,11 @@
-start_line!
-zzzzzzzz
-zzzzzzzz
 zzzzz
-zzzzxxxx
-xxxxxxxx
-xxxxxxxx
+zzzzz
+zzzzz
+zzzzz
+z
+zzzzx
 xxxxx
+xxxxx
+xxxxx
+xxxxx
+xxxx

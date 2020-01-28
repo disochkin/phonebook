@@ -20,6 +20,6 @@ def adv_print(*args, **kwargs):
                 print('\n'.join(textwrap.wrap(item, max_line)))
 
 
-adv_print("zzzzzzzzzzzzzzzzzzzzz","zzzzxxxxxxxxxxxxxxxxxxxxxxxxx",max_line=5)
+adv_print("zzzzzzzzzzzzzzzzzzzzz","zzzzxxxxxxxxxxxxxxxxxxxxxxxxx",max_line=5,in_file=True)
 
 
