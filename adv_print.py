@@ -4,9 +4,8 @@ output_file = "output.txt"
 
 def adv_print(*args, **kwargs):
     start = kwargs.get('start', '')
-    max_line = kwargs.get('max_line', 5)
+    max_line = kwargs.get('max_line', 100)
     in_file = kwargs.get('in_file', False)
-
     if in_file:
         with open(output_file, 'w') as f_obj:
             if start:
@@ -21,6 +20,6 @@ def adv_print(*args, **kwargs):
                 print('\n'.join(textwrap.wrap(item, max_line)))
 
 
-adv_print("zzzzzzzzzzzzzzzzzzzzz","zzzzxxxxxxxxxxxxxxxxxxxxxxxxx", max_line=10)
+adv_print("zzzzzzzzzzzzzzzzzzzzz","zzzzxxxxxxxxxxxxxxxxxxxxxxxxx",max_line=5)
 
 
